@@ -1,0 +1,36 @@
+.board-row {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.board-container {
+  margin: 20px;
+  text-align: center;
+}
+
+.board-container h4 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #333;
+}
+
+.board-container button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.board-container button:hover {
+  background-color: #45a049;
+}
+
+.board-container p {
+  font-size: 20px;
+  color: #333;
+}
